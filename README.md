@@ -34,3 +34,6 @@ The following stages were completed using the QGIS Processing Toolbox and Map Al
     * [cite_start]Performing **Raster generalization** (Sieve) with 8-pixel neighborhood disabled to eliminate small clusters, retaining only contiguous areas of at least 10 ha[cite: 448, 449].
 5.  [cite_start]**Grouping Areas (Clumping):** Using the **`r.clump`** tool (with diagonal cells disabled) to assign a new, unique attribute value to each physically discrete group of pixels[cite: 500, 533]. [cite_start]This allows for subsequent independent statistical analysis of each site[cite: 501].
 6.  [cite_start]**Data Cleaning:** Utilizing table reclassification to assign the `-9999` (NoData) value to the image "background" to isolate the chosen clusters[cite: 568].
+
+   ## 🗺️ Result
+   <img width="1327" height="913" alt="Result" src="https://github.com/user-attachments/assets/61e0eb6d-d557-4975-b79c-00d6e65b7b6d" />
